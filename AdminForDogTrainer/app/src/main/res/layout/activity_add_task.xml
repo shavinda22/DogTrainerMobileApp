@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Task Title"
+        android:minHeight="48dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextTaskModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Task Model"
+        android:minHeight="48dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Task Name"
+        android:minHeight="48dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextTaskDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Task Details"
+        android:minHeight="48dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task" />
+
+</LinearLayout>

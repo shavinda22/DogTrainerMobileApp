@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AllRequests">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Users"
+        android:textColor="#009688"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView8"
+        android:layout_width="377dp"
+        android:layout_height="564dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="20dp"
+        android:background="#00FFFFFF"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView8"
+        app:layout_constraintEnd_toStartOf="@+id/textView4">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00B63232"
+            android:backgroundTint="#00DD3B3B"
+            android:text="Button"
+            android:textColor="#000000"
+            app:icon="@android:drawable/ic_menu_revert"
+            app:iconTint="#040404"
+            tools:ignore="TouchTargetSizeCheck" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
